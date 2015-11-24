@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="org.apache.cordova.signal-strength" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+  <name>Signal</name>
+  <description>GSM Signal Strength Plugin</description>
+  <license>Apache 2.0</license>
+  <keywords>cordova,signal,strength,gsm,dBa,network</keywords>
+  <js-module name="signal-strength" src="www/signal-strength.js">
+    <clobbers target="signal-strength"/>
+  </js-module>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="SignalStrength">
+        <param name="android-package" value="org.apache.cordova.plugin.SignalStrength"/>
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+    <source-file src="src/org/apache/cordova/plugin/SignalStrength.java" target-dir="src/org/apache/cordova/SignalStrength" />
+  </platform>
+</plugin>

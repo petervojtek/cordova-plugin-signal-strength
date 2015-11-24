@@ -8,6 +8,10 @@ Apache Cordova Plugin to detect GSM Signal Strength
 
 ### Installation
 
+from npm repo:
+`$ cordova plugin add cordova-plugin-signal-strength`
+
+or from git repo:
 `$ cordova plugin add https://github.com/petervojtek/cordova-plugin-signal-strength.git`
 
 ### Usage

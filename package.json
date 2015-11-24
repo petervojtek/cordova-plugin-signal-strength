@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-signal-strength",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Apache Cordova GSM Signal Strength Plugin",
   "cordova": {
     "id": "cordova-plugin-signal-strength",
@@ -31,6 +31,5 @@
   "bugs": {
     "url": "https://github.com/petervojtek/cordova-plugin-signal-strength/issues"
   },
-  "homepage": "https://github.com/petervojtek/cordova-plugin-signal-strength",
-  "readme": "README.md"
+  "homepage": "https://github.com/petervojtek/cordova-plugin-signal-strength"
 }

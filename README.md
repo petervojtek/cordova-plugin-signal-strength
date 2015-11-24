@@ -16,7 +16,7 @@ or from git repo:
 
 ### Usage
 
-The API has only has method `window.SignalStrength.dbm(callback)` which returns signal strength in [dBm units](http://powerfulsignal.com/cell-signal-strength.aspx) (negative integer).
+The API has only one method `window.SignalStrength.dbm(callback)` which returns signal strength in [dBm units](http://powerfulsignal.com/cell-signal-strength.aspx) (negative integer).
 Example
 ```
 window.SignalStrength.dbm(

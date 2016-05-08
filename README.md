@@ -40,6 +40,7 @@ Example in Ionic framework:
 ### Notes
 
 * `window.SignalStrength` is undefined when testing your app on your PC while using `ionic serve`.
+* when you call `window.SignalStrength.dbm` for the first time the device may respond with `-1`. Try calling the function again after some delay.
 
 ### How to Contribute
 
